@@ -4,22 +4,22 @@
 using namespace std;
 
 
-struct Rect;
-struct Object;
+struct FRect;
+struct FObject;
 
-struct Display : public Object
+struct FDisplay : public FObject
 {
-	Display();
+	FDisplay();
 
 
 
 	void Out();
-	void UpdataScreen(Rect fRect);
+	void UpdataScreen(FRect fRect);
 
 
 
 private:
-	Rect fScreen;
+	FRect fScreen;
 
 
 
