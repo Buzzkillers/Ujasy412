@@ -1,5 +1,6 @@
 #pragma once
 #include <string>
+#include "Object.h"
 using namespace std;
 
 
@@ -20,7 +21,9 @@ struct FQuest : public FObject
 
 	FQuest();
 
-	FAnswer GetAnswer();
+	void GetAnswer(string sPath);
+
+	vector<FAnswer> arrAnswer;
 
 
 
