@@ -1,9 +1,19 @@
 #pragma once
 
+#include <vector>
 
-struct Player : public Object, IOut
+using namespace std;
+
+
+struct FObject;
+struct FRect;
+struct IOut;
+
+
+
+struct FPlayer : public FObject, IOut
 {
-	Player();
+	FPlayer();
 
 
 
