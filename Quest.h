@@ -2,7 +2,10 @@
 #include <string>
 using namespace std;
 
-struct Answer
+
+struct FObject;
+
+struct FAnswer
 {
 	string sText;
 
@@ -12,12 +15,12 @@ struct Answer
 
 
 
-struct FQuest
+struct FQuest : public FObject
 {
 
 	FQuest();
 
-	Answer GetAnswer();
+	FAnswer GetAnswer();
 
 
 

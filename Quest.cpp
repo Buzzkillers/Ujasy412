@@ -6,3 +6,7 @@ FQuest::FQuest()
 
 }
 
+FAnswer FQuest::GetAnswer()
+{
+
+}
