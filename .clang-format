@@ -1,113 +1,47 @@
-Language: Cpp
-Standard: c++20
+# Файл CLANG-FORMAT, созданный Visual Studio
+
+# Параметры стиля в этом файле являются наиболее безопасными для репликации
+# текущей конфигурации форматирования IDE из меню "Сервис" > "Параметры". Тем не менее 
+# необходимо проверить следующие параметры стиля:
+# AfterClass; AfterControlStatement; AfterEnum; AfterFunction; AfterNamespace; 
+# AfterStruct; AfterUnion
+
+BasedOnStyle: LLVM
 AccessModifierOffset: -4
-AlignAfterOpenBracket: Align
-AlignConsecutiveAssignments: true
-AlignConsecutiveDeclarations: true
-AlignEscapedNewlines: Left
-AlignOperands: Align
-AlignTrailingComments: true
-AllowAllArgumentsOnNextLine: false
-AllowAllConstructorInitializersOnNextLine: false
-AllowAllParametersOfDeclarationOnNextLine: false
-AllowShortBlocksOnASingleLine: false
-AllowShortCaseLabelsOnASingleLine: false
-AllowShortEnumsOnASingleLine: true
+AlignAfterOpenBracket: DontAlign
+AllowShortBlocksOnASingleLine: true
 AllowShortFunctionsOnASingleLine: All
-AllowShortIfStatementsOnASingleLine: WithoutElse
-AllowShortLambdasOnASingleLine: All
-AllowShortLoopsOnASingleLine: true
-AlwaysBreakAfterReturnType: None
-AlwaysBreakBeforeMultilineStrings: false
-AlwaysBreakTemplateDeclarations: Yes
-BinPackArguments: false
-BinPackParameters: false
-BreakBeforeBraces: Allman
 BraceWrapping:
-  AfterCaseLabel: false
-  AfterClass: true
-  AfterControlStatement: MultiLine
-  AfterEnum: false
-  AfterFunction: true
-  AfterNamespace: true
-  AfterObjCDeclaration: false
-  AfterStruct: true
-  AfterUnion: true
-  AfterExternBlock: true
+  AfterClass: false    # TODO: проверьте
+  AfterControlStatement: false    # TODO: проверьте
+  AfterEnum: false    # TODO: проверьте
+  AfterFunction: false    # TODO: проверьте
+  AfterNamespace: false    # TODO: проверьте
+  AfterStruct: false    # TODO: проверьте
+  AfterUnion: false    # TODO: проверьте
   BeforeCatch: true
   BeforeElse: true
-  BeforeLambdaBody: false
-  BeforeWhile: true
   IndentBraces: false
-  SplitEmptyFunction: false
-  SplitEmptyNamespace: true
+  SplitEmptyFunction: true
   SplitEmptyRecord: true
-BreakAfterJavaFieldAnnotations: true
-BreakBeforeBinaryOperators: None
-#BreakBeforeInheritanceComma: true
-BreakBeforeTernaryOperators: true
-BreakConstructorInitializers: BeforeColon
-#BreakConstructorInitializersBeforeComma: false
-BreakInheritanceList: BeforeColon
-BreakStringLiterals: true
-ColumnLimit: 140
-CommentPragmas: '^ IWYU pragma:'
-CompactNamespaces: false
-ConstructorInitializerAllOnOneLineOrOnePerLine: true
-ConstructorInitializerIndentWidth: 4
-ContinuationIndentWidth: 4
+BreakBeforeBraces: Custom
+ColumnLimit: 0
 Cpp11BracedListStyle: false
-DeriveLineEnding: false
-DerivePointerAlignment: false
-DisableFormat: false
-ExperimentalAutoDetectBinPacking: true
-FixNamespaceComments: true
-IncludeBlocks: Preserve
-IncludeCategories:
-  - Priority: 2
-    Regex: ^"(llvm|llvm-c|clang|clang-c)/
-  - Priority: 3
-    Regex: ^(<|"(gtest|gmock|isl|json)/)
-  - Priority: 1
-    Regex: .*
-IndentCaseLabels: true
-IndentExternBlock: AfterExternBlock
-IndentGotoLabels: false
-IndentPPDirectives: AfterHash
+DerivePointerAlignment: true
+FixNamespaceComments: false
+IndentCaseLabels: false
+IndentPPDirectives: None
 IndentWidth: 4
-IndentWrappedFunctionNames: true
-JavaScriptQuotes: Leave
-JavaScriptWrapImports: true
-KeepEmptyLinesAtTheStartOfBlocks: false
-MacroBlockBegin: ''
-MacroBlockEnd: ''
-MaxEmptyLinesToKeep: 1
+MaxEmptyLinesToKeep: 10
 NamespaceIndentation: All
-ObjCBlockIndentWidth: 7
-ObjCSpaceAfterProperty: true
-ObjCSpaceBeforeProtocolList: false
-PointerAlignment: Left
-ReflowComments: true
-SortIncludes: true
-SortUsingDeclarations: true
+SortIncludes: false
+SortUsingDeclarations: false
 SpaceAfterCStyleCast: false
-SpaceAfterLogicalNot: false
-SpaceAfterTemplateKeyword: false
 SpaceBeforeAssignmentOperators: true
-SpaceBeforeCpp11BracedList: true
-SpaceBeforeCtorInitializerColon: true
-SpaceBeforeInheritanceColon: true
 SpaceBeforeParens: ControlStatements
-SpaceBeforeRangeBasedForLoopColon: true
-SpaceBeforeSquareBrackets: false
-SpaceInEmptyBlock: false
 SpaceInEmptyParentheses: false
-SpacesBeforeTrailingComments: 4
-SpacesInAngles: false
 SpacesInCStyleCastParentheses: false
-SpacesInConditionalStatement: false
-SpacesInContainerLiterals: false
 SpacesInParentheses: false
 SpacesInSquareBrackets: false
 TabWidth: 4
-UseTab: Never
+UseTab: true
