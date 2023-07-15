@@ -6,7 +6,7 @@ FMonster::FMonster()
 
 }
 
-FRect FMonster::Out()
-{
-
+FSprite FMonster::Out() {
+	FSprite fSprite;
+	return fSprite;
 }
