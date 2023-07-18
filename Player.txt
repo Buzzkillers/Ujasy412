@@ -1,11 +1,5 @@
-15 10
-zzzzzzzzzzzzzzz
-zzzzzzzzzzzzzzz
-zzzzzzzzzzzzzzz
-zzzzzzzzzzzzzzz
-zzzzzzzzzzzzzzz
-zzzzzzzzzzzzzzz
-zzzzzzzzzzzzzzz
-zzzzzzzzzzzzzzz
-zzzzzzzzzzzzzzz
-zzzzzzzzzzzzzzz
+2 10 7 4
+ /^ ^\ 
+/ 0 0 \
+V\ Y /V
+ / - \ 
